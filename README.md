@@ -1,0 +1,28 @@
+# 🚀 Java DSA Portfolio
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java)
+![DSA](https://img.shields.io/badge/DSA-Practice-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+
+## 👩‍💻 About
+Java DSA practice repository for improving problem-solving and preparing for coding interviews.
+
+## 📚 Topics
+- Strings (Reverse, Palindrome, Anagram, Frequency)
+- Arrays (Rotation, Searching, Sorting)
+- Searching & Sorting Algorithms
+
+## 🎯 Goal
+Build strong DSA foundation for software developer interviews.
+
+## 🧠 Skills
+- Problem Solving
+- Java Basics
+- DSA Fundamentals
+- String & Array Logic
+
+## 📂 Structure
+Topic-wise Java solutions with clean code.
+
+## 👩‍💻 Author
+Tanvi Vadera
