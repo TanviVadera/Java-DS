@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
 ## 👩‍💻 About
-Java DSA practice repository for improving problem-solving and preparing for coding interviews.
+Java DSA practice repository.
 
 ## 📚 Topics
 - Strings (Reverse, Palindrome, Anagram, Frequency)
