@@ -1,4 +1,4 @@
-# 🚀 Java DSA Portfolio
+# 🚀 Java DSA 
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java)
 ![DSA](https://img.shields.io/badge/DSA-Practice-blue?style=for-the-badge)
@@ -13,7 +13,7 @@ Java DSA practice repository for improving problem-solving and preparing for cod
 - Searching & Sorting Algorithms
 
 ## 🎯 Goal
-Build strong DSA foundation for software developer interviews.
+Build strong DSA foundation
 
 ## 🧠 Skills
 - Problem Solving
