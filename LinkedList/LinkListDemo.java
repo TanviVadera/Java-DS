@@ -11,7 +11,7 @@ public class LinkListDemo {
             this.next=null;
         }
     }
-    private node head;
+    private Node head;
 
     //Insert at the end
     public void insert(int data)
@@ -33,28 +33,40 @@ public class LinkListDemo {
     }
 
     //Delete at the end
-    public void delete(int key)
+   public void delete(int key)
+{
+    if(head == null)
     {
-        if(head==null)
-        {
-            System.out.println("List is empty");
-            return;
-        }
-        if(head.data==key)
-        {
-            head=head.next;
-            return;
-        }
-        Node temp=head;
-        Node prev=null;
-        while(temp.next!=null && temp.data!=key)
-        {
-            prev=temp;
-            temp=temp.next;
-        }
-        prev.next=temp.next;
+        System.out.println("List is empty");
+        return;
     }
 
+    // If the head node contains the key
+    if(head.data == key)
+    {
+        head = head.next;
+        return;
+    }
+
+    Node temp = head;
+    Node prev = null;
+
+    while(temp != null && temp.data != key)
+    {
+        prev = temp;
+        temp = temp.next;
+    }
+
+    // Key not found
+    if(temp == null)
+    {
+        System.out.println("Element not found");
+        return;
+    }
+
+    // Delete the node
+    prev.next = temp.next;
+}
     //Display linked list
     public void display()
     {
@@ -72,7 +84,7 @@ public class LinkListDemo {
     }
     public static void main(String[] args)
     {
-        LinkedList list=new LinkedList();
+        LinkListDemo list=new LinkListDemo();
         list.insert(10);
         list.insert(20);
         list.insert(30);
