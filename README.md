@@ -11,6 +11,9 @@ Java DSA practice repository.
 - Strings (Reverse, Palindrome, Anagram, Frequency)
 - Arrays (Rotation, Searching, Sorting)
 - Searching & Sorting Algorithms
+- LinkList
+- Stack and Queue(Using Array)
+- Collections
 
 ## 🎯 Goal
 Build strong DSA foundation
